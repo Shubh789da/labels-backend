@@ -1,0 +1,33 @@
+# DeepSeek-OCR FastAPI Dependencies - H100 SXM Optimized
+# Use with: nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# ML Dependencies (CUDA 12.1 optimized for H100)
+addict
+transformers==4.46.3
+tokenizers==0.20.3
+einops
+easydict
+accelerate>=0.26.0
+
+# PyTorch with CUDA 12.1 (install separately):
+# pip install torch==2.3.1 torchvision==0.18 --index-url https://download.pytorch.org/whl/cu121
+
+# Flash Attention 2 (install separately after PyTorch):
+# pip install flash-attn==2.7.3 --no-build-isolation
+
+# Image Processing
+Pillow>=10.0.0
+numpy
+PyMuPDF
+img2pdf
+
+# HTTP Client
+requests>=2.31.0
+
+# Config
+PyYAML

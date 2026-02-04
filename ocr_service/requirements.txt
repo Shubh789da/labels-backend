@@ -1,0 +1,35 @@
+# DeepSeek-OCR-2 Service Dependencies
+# Python 3.12+ with CUDA 11.8+
+
+# Core ML
+torch==2.6.0
+transformers==4.46.3
+tokenizers==0.20.3
+accelerate
+
+# DeepSeek-OCR-2 dependencies
+einops
+addict
+easydict
+safetensors
+
+# Flash Attention (install separately with --no-build-isolation)
+# flash-attn==2.7.3
+
+# PDF Processing
+pdf2image
+Pillow
+
+# AWS S3
+boto3
+
+# FastAPI
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+httpx
+
+# Configuration
+pydantic-settings
+python-dotenv

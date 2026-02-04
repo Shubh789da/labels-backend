@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .animate-pulse-slow {
+        animation: pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .background-animate {
+        background-size: 200%;
+        animation: gradient-x 3s ease infinite;
+    }
+
+    @keyframes gradient-x {
+
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+}
+
+body {
+    background-color: #050505;
+    color: white;
+}

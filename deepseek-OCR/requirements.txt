@@ -1,0 +1,29 @@
+# DeepSeek-OCR FastAPI Dependencies
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# ML Dependencies
+addict
+transformers==4.46.3
+tokenizers==0.20.3
+einops
+easydict
+torch==2.3.1
+torchvision==0.18
+accelerate>=0.26.0
+flash-attn==2.7.3
+
+# Image Processing
+Pillow>=10.0.0
+numpy
+PyMuPDF
+img2pdf
+
+# HTTP Client
+requests>=2.31.0
+
+# Config
+PyYAML

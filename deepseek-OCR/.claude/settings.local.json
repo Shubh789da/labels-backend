@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(scp:*)",
+      "Bash(powershell -Command \"Test-Path \"\"$env:USERPROFILE\\\\.ssh\\\\runpod_key\"\"; echo $env:USERPROFILE\")",
+      "Bash(powershell -Command \"[Environment]::GetFolderPath\\(''UserProfile''\\)\")",
+      "WebFetch(domain:60.171.65.125)",
+      "WebFetch(domain:docs.runpod.io)",
+      "WebFetch(domain:docs.vllm.ai)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:hub.docker.com)",
+      "WebFetch(domain:discuss.vllm.ai)"
+    ]
+  }
+}

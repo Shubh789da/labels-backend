@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:open.fda.gov)",
+      "WebFetch(domain:dailymed.nlm.nih.gov)",
+      "Bash(uv venv:*)",
+      "Bash(uv pip install:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(ssh:*)",
+      "Bash($keyPath = \"$env:USERPROFILE\\\\.ssh\\\\runpod_key\")",
+      "Bash(Write-Host \"SSH Key path: $keyPath\")",
+      "Bash(Test-Path $keyPath)",
+      "WebFetch(domain:docs.runpod.io)",
+      "Bash(dir %USERPROFILE%.ssh)"
+    ]
+  }
+}

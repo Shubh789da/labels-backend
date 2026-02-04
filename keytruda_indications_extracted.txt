@@ -1,0 +1,28 @@
+Melanoma
+Non-Small Cell Lung Cancer (NSCLC)
+Small Cell Lung Cancer (SCLC)
+Head and Neck Squamous Cell Cancer (HNSCC)
+Classical Hodgkin Lymphoma (cHL)
+Primary Mediastinal Large B-Cell Lymphoma (PMBCL)
+Urothelial Carcinoma
+Microsatellite Instability-High or Mismatch Repair Deficient Cancer
+Microsatellite Instability-High or Mismatch Repair Deficient Colorectal Cancer (CRC)
+Gastric Cancer
+Esophageal Cancer
+Cervical Cancer
+Hepatocellular Carcinoma (HCC)
+Merkel Cell Carcinoma (MCC)
+Renal Cell Carcinoma (RCC)
+Endometrial Carcinoma
+Tumor Mutational Burden-High (TMB-H) Cancer
+(TMB-H) [≥10 mutations/megabase (mut/Mb)] solid tumors, as determined by an FDA-approved test, that have progressed following prior treatment and who have no satisfactory alternative treatment options.\(^1\) (1.17, 2.1)
+Cutaneous Squamous Cell Carcinoma (cSCC)
+Triple-Negative Breast Cancer (TNBC)
+Adult Indications: Additional Dosing Regimen of 400 mg Every 6 Weeks
+- for use at an additional recommended dosage of 400 mg every 6 weeks for all approved adult indications.\(^3\) (1.20, 2.2)
+
+\(^1\) This indication is approved under accelerated approval based on tumor response rate and durability of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in the confirmatory trials.
+
+\(^2\) This indication is approved under accelerated approval based on progression-free survival. Continued approval for this indication may be contingent upon verification and description of clinical benefit in the confirmator trials.
+
+\(^3\) This indication is approved under accelerated approval based on pharmacokinetic data, the relationship of exposure to efficacy, and the relationship of exposure to safety. Continued approval for this dosing may be contingent upon verification and description of clinical benefit in the confirmatory trials.
